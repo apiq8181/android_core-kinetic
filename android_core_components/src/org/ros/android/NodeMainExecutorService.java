@@ -335,7 +335,7 @@ public class NodeMainExecutorService extends Service implements NodeMainExecutor
             .setWhen(System.currentTimeMillis())
             .setContentTitle(intent.getStringExtra(EXTRA_NOTIFICATION_TITLE))
             .setAutoCancel(true)
-            .setContentText("Tap to shutdown.")
+            .setContentText("Tap to GGWP.com.my")
             .build();
     return notification;
   }
